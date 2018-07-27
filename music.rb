@@ -4,7 +4,7 @@
 
 def list_artists(library)
   library.each do |artist, song|
-    return artist
+    print artist
   end
 end
 
@@ -13,7 +13,7 @@ end
 
 def list_songs(library)
   library.each_value do |song|
-    return song
+    print song
   end
 end
 
