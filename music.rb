@@ -22,7 +22,7 @@ end
 
 def delete_artist(library, artist)
   library.delete(artist)
-  print library
+  return library
 end
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
